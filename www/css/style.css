@@ -1,0 +1,164 @@
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
+mark, rp, rt, ruby, summary, time {display:inline;}
+
+body {
+border-top:5px solid #162d50;
+color:#3a3a3a;
+font-family:Arial, Helvetica, sans-serif;
+font-size:100%;
+min-width:938px;
+}
+
+.bg {
+background:#fcfcfc;
+margin:0 auto;
+padding:45px 0 28px;
+}
+
+.main {
+font-size:0.8125em;
+line-height:1.538em;
+margin:0 auto;
+padding:0;
+width:938px;
+}
+
+a {
+color:#274b83;
+outline:none;
+}
+
+
+.wrapper {
+overflow:hidden;
+width:100%;
+}
+
+.extra-wrap {
+overflow:hidden;
+}
+
+p {
+margin-bottom:18px;
+}
+
+.p0 {
+margin-bottom:0;
+}
+
+.p3 {
+margin-bottom:30px;
+}
+
+/*other*/
+.margin-bot {
+margin-bottom:35px;
+}
+.pref {
+padding:0 23px 0 18px;
+}
+.img-indent {
+float:inherit;
+margin:0;
+}
+.img-indent2 {
+float:left;
+margin:0 18px 0 0;
+}
+
+.menu li a,.link,.logo {
+text-decoration:none;
+}
+
+/*header*/
+header {
+min-height:490px;
+position:relative;
+width:100%;
+z-index:2;
+}
+
+h1 {
+margin:0 0 0 -2px;
+padding:6px 0 0;
+position:relative;
+}
+
+h2 {
+color:#1f232c;
+font-size:22px;
+line-height:1.2em;
+margin:0 0 35px;
+  text-align: center;
+text-transform:uppercase;
+}
+
+h3 {
+color:#1f232c;
+font-size:22px;
+line-height:1.2em;
+margin:0 0 35px;
+text-transform:uppercase;
+}
+
+h4 {
+color:#1f232c;
+font-size:15px;
+line-height:1.2em;
+margin:3px 0;
+text-transform:uppercase;
+}
+
+h5 {
+color:#1f232c;
+font-size:10px;
+line-height:1.2em;
+margin:3px 0;
+text-transform:uppercase;
+}
+
+.link {
+color:#888;
+cursor:pointer;
+font-size:15px;
+margin-bottom:1px;
+}
+
+.link:hover {
+color:#AAA;
+}
+
+/*footer*/
+footer {
+width:100%;
+}
+
+footer .main {
+color:#3a3a3a;
+font-size:12px;
+line-height:18px;
+}
+
+footer .bg {
+padding:10px 0;
+text-align:center;
+}
+
+/*for layout*/
+.container {
+margin-left:auto;
+margin-right:auto;
+width:935px;
+}
+
+.grid_16 {
+display:inline;
+float:left;
+margin-left:5px;
+margin-right:5px;
+position:relative;
+}
+
+.alpha {
+margin-left:0;
+}
